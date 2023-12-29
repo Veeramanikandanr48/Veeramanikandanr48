@@ -1,5 +1,8 @@
-<a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
+# Welcome to My MERN Stack World! 🚀
 
+<div align="center">
+  <img src="https://res.cloudinary.com/dpcfyn3si/image/upload/v1691490595/uploads/portfolio/experience_l8s9cd.png" alt="MERN Stack ASCII Art">
+</div>
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I'm VEERAMANIKANDAN</h1>
 <h3 align="center">Passionate Full Stack Developer | MERN Enthusiast</h3>
 
