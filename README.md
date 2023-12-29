@@ -69,7 +69,7 @@
 <a href = "https://www.linkedin.com/in/veeramanikandanr"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
 <a href = "https://twitter.com/veera_r_tech"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
 <a href = "https://www.instagram.com/veera_r_/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
-<a href = "[https://www.youtube.com/channel/@veeramanikandanR](https://youtube.com/@veeramanikandanR?si=D_mVQ3WPiAc-cL_f)"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
+<a href = "https://www.youtube.com/channel/@veeramanikandanR"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
 
 </p>
 
