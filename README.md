@@ -38,6 +38,31 @@ Welcome to my coding journey! I'm Veeramanikandan, a Full Stack Developer from T
     <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git"/>
 </p>
 
+## 🛠️ Skills and Technologies
+
+### Frontend Development
+
+- **React.js**: Building interactive user interfaces.
+- **HTML5 & CSS3**: Creating visually appealing and responsive designs.
+- **Bootstrap**: Designing modern and responsive layouts.
+
+### Backend Development
+
+- **Node.js & Express.js**: Developing scalable and efficient server-side applications.
+- **MongoDB**: Designing and implementing NoSQL databases.
+- **Firebase**: Building real-time applications with a serverless backend.
+
+### Full Stack
+
+- **MERN Stack**: Building end-to-end web applications with MongoDB, Express.js, React.js, and Node.js.
+- **LAMP Stack**: Experience with Linux, Apache, MySQL, and PHP.
+
+### Other Skills
+
+- **C++**: Developing efficient and optimized algorithms.
+- **Python**: Utilizing Python for scripting and automation.
+- **Laravel**: Building robust PHP applications.
+
 ## 🔥 GitHub Stats and Streak
 
 <p align="center">
@@ -49,8 +74,8 @@ Welcome to my coding journey! I'm Veeramanikandan, a Full Stack Developer from T
     <a href="https://github.com/Veeramanikandanr48/github-readme-streak-stats">
         <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Veeramanikandanr48&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"/>
     </a>
-</p>
 
+    
 ## 📊 My Coding Activity
 
 <p align="center">
