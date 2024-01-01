@@ -58,7 +58,6 @@ Welcome to my coding journey! I'm Veeramanikandan, a Full Stack Developer from T
 ### Full Stack
 
 - **MERN Stack**: Building end-to-end web applications with MongoDB, Express.js, React.js, and Node.js.
-- **LAMP Stack**: Experience with Linux, Apache, MySQL, and PHP.
 
 ### Other Skills
 
@@ -66,7 +65,6 @@ Welcome to my coding journey! I'm Veeramanikandan, a Full Stack Developer from T
 - **Python**: Utilizing Python for scripting, automation, and data analysis.
 - **Java**: Experience in Java development for backend applications and Android.
 - **JavaScript**: Extensive use of JavaScript for both frontend and backend development.
-- **Laravel**: Building robust PHP applications.
 
 ## 🔥 GitHub Stats and Streak
 
