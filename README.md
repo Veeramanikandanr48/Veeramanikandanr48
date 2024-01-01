@@ -61,7 +61,6 @@ Welcome to my coding journey! I'm Veeramanikandan, a Full Stack Developer from T
 
 ### Other Skills
 
-- **C++**: Developing efficient and optimized algorithms.
 - **Python**: Utilizing Python for scripting, automation, and data analysis.
 - **Java**: Experience in Java development for backend applications and Android.
 - **JavaScript**: Extensive use of JavaScript for both frontend and backend development.
