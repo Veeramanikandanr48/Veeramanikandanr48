@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Hello, I'm Veeramanikandan R — Product Engineer and Full Stack Developer" width="80%" />
+  <img src="./assets/header.svg" alt="Veeramanikandan R — Product Engineer and Full Stack Developer" width="100%" />
 </p>
 
 <p align="center">
