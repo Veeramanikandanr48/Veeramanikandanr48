@@ -93,9 +93,9 @@ I am a **Product Engineer** and **Full Stack Developer** based in Chennai, India
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Veeramanikandanr48&show_icons=true&count_private=true&rank_icon=github&show=reviews&theme=github_dark&hide_border=true&bg_color=0B0B0F&title_color=D4AF37&icon_color=D4AF37&text_color=E6E6E6&cache_seconds=1800&v=4" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Veeramanikandanr48&show_icons=true&count_private=true&rank_icon=github&show=reviews&theme=default&hide_border=true&bg_color=FFFDF8&title_color=8A6A1F&icon_color=8A6A1F&text_color=17171C&cache_seconds=1800&v=4" />
-    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Veeramanikandanr48&show_icons=true&count_private=true&rank_icon=github&show=reviews&theme=default&hide_border=true&bg_color=FFFDF8&title_color=8A6A1F&icon_color=8A6A1F&text_color=17171C&cache_seconds=1800&v=4" alt="GitHub Stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Veeramanikandanr48&show_icons=true&count_private=true&rank_icon=github&theme=github_dark&hide_border=true&bg_color=0B0B0F&title_color=D4AF37&icon_color=D4AF37&text_color=E6E6E6&cache_seconds=1800&v=10" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Veeramanikandanr48&show_icons=true&count_private=true&rank_icon=github&theme=default&hide_border=true&bg_color=FFFDF8&title_color=8A6A1F&icon_color=8A6A1F&text_color=17171C&cache_seconds=1800&v=10" />
+    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Veeramanikandanr48&show_icons=true&count_private=true&rank_icon=github&theme=default&hide_border=true&bg_color=FFFDF8&title_color=8A6A1F&icon_color=8A6A1F&text_color=17171C&cache_seconds=1800&v=10" alt="GitHub Stats" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Veeramanikandanr48&layout=compact&langs_count=8&count_private=true&theme=github_dark&hide_border=true&bg_color=0B0B0F&title_color=D4AF37&text_color=E6E6E6&cache_seconds=1800" />
