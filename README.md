@@ -40,8 +40,9 @@ I am a **Product Engineer** and **Full Stack Developer** based in Chennai, India
   <tr>
     <td width="50%" valign="top">
       <b>Currently</b><br /><br />
-      Building enterprise sustainability and compliance platforms at VRS CERT.<br />
+      Software Development Engineer at VRS CERT, building enterprise sustainability and compliance platforms.<br />
       Independent consulting on full-stack SaaS products with Next.js, NestJS and PostgreSQL.<br />
+      Previously built FinTech and SaaS products at Finstein.<br />
       Exploring AI agents, RAG and automation for product workflows.
     </td>
     <td width="50%" valign="top">
