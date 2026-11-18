@@ -1,5 +1,6 @@
-<h1 align="center">Hi, I'm Veeramanikandan R</h1>
-<h3 align="center">Product Engineer · Full Stack Developer</h3>
+<p align="center">
+  <img src="./assets/header.svg" alt="Veeramanikandan R — Product Engineer and Full Stack Developer" width="100%" />
+</p>
 
 <p align="center">
   I turn business problems into scalable digital products.
