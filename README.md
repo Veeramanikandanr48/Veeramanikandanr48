@@ -26,6 +26,13 @@ I'm a Product Engineer from Chennai, India. I currently build enterprise sustain
 | <a href="https://github.com/Veeramanikandanr48"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Veeramanikandanr48&show_icons=true&count_private=true&rank_icon=github&theme=buefy&hide_border=true&cache_seconds=1800&v=11" alt="Veeramanikandan's GitHub stats" /></a> | <a href="https://github.com/Veeramanikandanr48"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Veeramanikandanr48&layout=compact&langs_count=8&count_private=true&theme=buefy&hide_border=true&cache_seconds=1800&v=11" alt="Top Languages" /></a> |
 | ------------- | ------------- |
 
+#### Open Source
+
+- **Storybook** — story hoisting fix for case-sensitive component names, with tests and docs ([PR #37533](https://github.com/storybookjs/storybook/pull/37533)).
+- **DeskcommCRM** — localized audit detail labels and added a regression test ([PR #4893](https://github.com/melgarafael/DeskcommCRM/pull/4893)).
+- **openslop / env-saaf** — dialog alignment fix and CLI improvements ([#1320](https://github.com/openslop/openslop/pull/1320), [#107](https://github.com/abhi478jeetur-rgb/env-saaf/pull/107), [#108](https://github.com/abhi478jeetur-rgb/env-saaf/pull/108)).
+- [All pull requests](https://github.com/pulls?q=is%3Apr+author%3AVeeramanikandanr48)
+
 #### Top Repositories
 
 <a href="https://github.com/Veeramanikandanr48/co2-suite-frontend">
