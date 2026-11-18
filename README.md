@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="assets/hero.svg" alt="Veeramanikandan R" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
+    <img src="assets/hero-light.svg" alt="Veeramanikandan R" width="100%" />
+  </picture>
   <br /><br />
   <a href="https://veeramanikandan.vercel.app/"><b>Portfolio</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
@@ -13,16 +17,24 @@
 <br />
 
 <p align="center">
-  <i>Building thoughtful software at the intersection of product, data and open source.</i>
+  <i>Building thoughtful software at the intersection of product, engineering and open source.</i>
 </p>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg" />
+  <img src="assets/divider-light.svg" width="100%" alt="" />
+</picture>
 
 <div align="center">
-  <img src="assets/section-profile.svg" width="100%" alt="Profile" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/section-profile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/section-profile-light.svg" />
+    <img src="assets/section-profile-light.svg" width="100%" alt="Profile" />
+  </picture>
 </div>
 
-I am a **Full Stack Developer** and **Data Analyst** from Tamil Nadu, India. I design and ship end-to-end products with **React, Next.js, Node.js, NestJS, TypeScript, PostgreSQL and MongoDB** — with a bias for clean architecture, useful tests and interfaces that feel effortless.
+I am a **Product Engineer** and **Full Stack Developer** from Tamil Nadu, India. I design and ship end-to-end products with **React, Next.js, Node.js, NestJS, TypeScript, PostgreSQL and MongoDB** — with a bias for clean architecture, useful tests and interfaces that feel effortless.
 
 <table>
   <tr>
@@ -34,8 +46,8 @@ I am a **Full Stack Developer** and **Data Analyst** from Tamil Nadu, India. I d
     </td>
     <td width="50%" valign="top">
       <b>Open to</b><br /><br />
-      Full-stack engineering roles.<br />
-      Data analyst and analytics engineering work.<br />
+      Product engineering roles.<br />
+      Full-stack product work.<br />
       Open-source collaboration and technical writing.
     </td>
   </tr>
@@ -43,14 +55,18 @@ I am a **Full Stack Developer** and **Data Analyst** from Tamil Nadu, India. I d
 
 
 <div align="center">
-  <img src="assets/section-expertise.svg" width="100%" alt="Expertise" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/section-expertise.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/section-expertise-light.svg" />
+    <img src="assets/section-expertise-light.svg" width="100%" alt="Expertise" />
+  </picture>
 </div>
 
 | Discipline | Focus |
 | --- | --- |
 | **Frontend** | React · Next.js · TypeScript · Tailwind CSS · Storybook |
 | **Backend** | Node.js · NestJS · Express · PostgreSQL · MongoDB · Redis |
-| **Data** | Python · Pandas · NumPy · scikit-learn · SQL · Power BI |
+| **Data & ML** | Python · Pandas · NumPy · scikit-learn · SQL · Power BI |
 | **Platform** | Docker · GitHub Actions · AWS · Vercel · Linux · Nginx |
 
 <p align="center">
@@ -66,20 +82,40 @@ I am a **Full Stack Developer** and **Data Analyst** from Tamil Nadu, India. I d
 
 
 <div align="center">
-  <img src="assets/section-github.svg" width="100%" alt="GitHub in Numbers" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/section-github.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/section-github-light.svg" />
+    <img src="assets/section-github-light.svg" width="100%" alt="GitHub in Numbers" />
+  </picture>
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Veeramanikandanr48&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&show=reviews,prs_merged,prs_merged_percentage&theme=github_dark&hide_border=true&bg_color=0B0B0F&title_color=D4AF37&icon_color=D4AF37&text_color=E6E6E6&cache_seconds=1800" alt="GitHub Stats" />
-  <img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Veeramanikandanr48&layout=compact&langs_count=8&count_private=true&theme=github_dark&hide_border=true&bg_color=0B0B0F&title_color=D4AF37&text_color=E6E6E6&cache_seconds=1800" alt="Top Languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Veeramanikandanr48&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&show=reviews%2Cprs_merged%2Cprs_merged_percentage&theme=github_dark&hide_border=true&bg_color=0B0B0F&title_color=D4AF37&icon_color=D4AF37&text_color=E6E6E6&cache_seconds=1800" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Veeramanikandanr48&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&show=reviews%2Cprs_merged%2Cprs_merged_percentage&theme=default&hide_border=true&bg_color=FFFDF8&title_color=8A6A1F&icon_color=8A6A1F&text_color=17171C&cache_seconds=1800" />
+    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Veeramanikandanr48&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&show=reviews%2Cprs_merged%2Cprs_merged_percentage&theme=default&hide_border=true&bg_color=FFFDF8&title_color=8A6A1F&icon_color=8A6A1F&text_color=17171C&cache_seconds=1800" alt="GitHub Stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Veeramanikandanr48&layout=compact&langs_count=8&count_private=true&theme=github_dark&hide_border=true&bg_color=0B0B0F&title_color=D4AF37&text_color=E6E6E6&cache_seconds=1800" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Veeramanikandanr48&layout=compact&langs_count=8&count_private=true&theme=default&hide_border=true&bg_color=FFFDF8&title_color=8A6A1F&text_color=17171C&cache_seconds=1800" />
+    <img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Veeramanikandanr48&layout=compact&langs_count=8&count_private=true&theme=default&hide_border=true&bg_color=FFFDF8&title_color=8A6A1F&text_color=17171C&cache_seconds=1800" alt="Top Languages" />
+  </picture>
 </div>
 
 <div align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=Veeramanikandanr48&theme=github-dark&hide_border=true&background=0B0B0F&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37&sideLabels=E6E6E6&dates=8A8F98" alt="GitHub Streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Veeramanikandanr48&theme=github-dark&hide_border=true&background=0B0B0F&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37&sideLabels=E6E6E6&dates=8A8F98" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Veeramanikandanr48&theme=default&hide_border=true&background=FFFDF8&ring=8A6A1F&fire=8A6A1F&currStreakLabel=8A6A1F&sideLabels=17171C&dates=7A7468" />
+    <img width="70%" src="https://streak-stats.demolab.com?user=Veeramanikandanr48&theme=default&hide_border=true&background=FFFDF8&ring=8A6A1F&fire=8A6A1F&currStreakLabel=8A6A1F&sideLabels=17171C&dates=7A7468" alt="GitHub Streak" />
+  </picture>
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Veeramanikandanr48&bg_color=0B0B0F&color=D4AF37&line=D4AF37&point=F5F5F5&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution Activity Graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Veeramanikandanr48&bg_color=0B0B0F&color=D4AF37&line=D4AF37&point=F5F5F5&area=true&hide_border=true&custom_title=Contribution%20Activity" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Veeramanikandanr48&bg_color=FFFDF8&color=8A6A1F&line=8A6A1F&point=17171C&area=true&hide_border=true&custom_title=Contribution%20Activity" />
+    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Veeramanikandanr48&bg_color=FFFDF8&color=8A6A1F&line=8A6A1F&point=17171C&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution Activity Graph" />
+  </picture>
 </div>
 
 <div align="center">
@@ -92,7 +128,11 @@ I am a **Full Stack Developer** and **Data Analyst** from Tamil Nadu, India. I d
 
 
 <div align="center">
-  <img src="assets/section-work.svg" width="100%" alt="Selected Work" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/section-work.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/section-work-light.svg" />
+    <img src="assets/section-work-light.svg" width="100%" alt="Selected Work" />
+  </picture>
 </div>
 
 | Project | Stack | Highlights |
@@ -105,7 +145,11 @@ I am a **Full Stack Developer** and **Data Analyst** from Tamil Nadu, India. I d
 
 
 <div align="center">
-  <img src="assets/section-open-source.svg" width="100%" alt="Open Source" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/section-open-source.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/section-open-source-light.svg" />
+    <img src="assets/section-open-source-light.svg" width="100%" alt="Open Source" />
+  </picture>
 </div>
 
 | Contribution | Repository | Status |
@@ -124,7 +168,11 @@ I am a **Full Stack Developer** and **Data Analyst** from Tamil Nadu, India. I d
 
 
 <div align="center">
-  <img src="assets/section-connect.svg" width="100%" alt="Connect" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/section-connect.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/section-connect-light.svg" />
+    <img src="assets/section-connect-light.svg" width="100%" alt="Connect" />
+  </picture>
 </div>
 
 <p align="center">
@@ -144,5 +192,9 @@ I am a **Full Stack Developer** and **Data Analyst** from Tamil Nadu, India. I d
 <br />
 
 <div align="center">
-  <img src="assets/footer.svg" alt="Let's build something exceptional" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/footer.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg" />
+    <img src="assets/footer-light.svg" alt="Let's build something exceptional" width="100%" />
+  </picture>
 </div>
