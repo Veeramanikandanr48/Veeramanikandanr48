@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" fill="none">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#D4AF37" stop-opacity="0.35"/>
+      <stop offset="0.8" stop-color="#D4AF37" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <text x="600" y="38" text-anchor="middle" fill="#D4AF37" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="5">PROFILE</text>
+  <line x1="0" y1="58" x2="1200" y2="58" stroke="url(#line)"/>
+</svg>
