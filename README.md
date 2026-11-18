@@ -34,15 +34,15 @@
   </picture>
 </div>
 
-I am a **Product Engineer** and **Full Stack Developer** from Tamil Nadu, India. I design and ship end-to-end products with **React, Next.js, Node.js, NestJS, TypeScript, PostgreSQL and MongoDB** — with a bias for clean architecture, useful tests and interfaces that feel effortless.
+I am a **Product Engineer** and **Full Stack Developer** based in Chennai, India. I turn business problems into scalable digital products with **React, Next.js, Node.js, NestJS, TypeScript, PostgreSQL and MongoDB** — with a bias for clean architecture, useful tests and interfaces that feel effortless.
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <b>Currently</b><br /><br />
-      Building invoicing, payroll, attendance and reporting systems.<br />
-      Contributing to open source across Storybook and developer tooling.<br />
-      Exploring AI agents, RAG and applied machine learning.
+      Building enterprise sustainability and compliance platforms at VRS CERT.<br />
+      Independent consulting on full-stack SaaS products with Next.js, NestJS and PostgreSQL.<br />
+      Exploring AI agents, RAG and automation for product workflows.
     </td>
     <td width="50%" valign="top">
       <b>Open to</b><br /><br />
@@ -64,6 +64,7 @@ I am a **Product Engineer** and **Full Stack Developer** from Tamil Nadu, India.
 
 | Discipline | Focus |
 | --- | --- |
+| **Product** | Discovery · Workflow design · API design · Compliance platforms · Automation |
 | **Frontend** | React · Next.js · TypeScript · Tailwind CSS · Storybook |
 | **Backend** | Node.js · NestJS · Express · PostgreSQL · MongoDB · Redis |
 | **Data & ML** | Python · Pandas · NumPy · scikit-learn · SQL · Power BI |
