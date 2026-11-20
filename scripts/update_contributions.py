@@ -2,6 +2,7 @@
 import json
 import os
 import re
+import urllib.parse
 import subprocess
 import sys
 from collections import defaultdict
@@ -117,6 +118,25 @@ def render_status_table(title, prs, limit=None):
 def render_section(merged, open_prs, closed):
     lines = [MARKER_START, "## Open source", "", "Live snapshot of my external pull requests (auto-updated).", ""]
     lines.append(f"**Summary:** {len(merged)} merged · {len(open_prs)} open · {len(closed)} closed (external repositories)")
+    lines.append("")
+    chart_config = {
+        "type": "doughnut",
+        "data": {
+            "labels": ["Merged", "Open", "Closed"],
+            "datasets": [{
+                "data": [len(merged), len(open_prs), len(closed)],
+                "backgroundColor": ["#2da44e", "#0969da", "#cf222e"],
+                "borderWidth": 0,
+            }],
+        },
+        "options": {
+            "plugins": {
+                "legend": {"position": "right", "labels": {"color": "#57606a"}},
+            },
+        },
+    }
+    chart_url = "https://quickchart.io/chart?w=420&h=180&bkg=transparent&f=png&c=" + urllib.parse.quote(json.dumps(chart_config, separators=(",", ":")))
+    lines.append(f'<p align="center"><img src="{chart_url}" alt="PR status summary chart" /></p>')
     lines.append("")
 
     if merged:
