@@ -34,13 +34,7 @@ Live snapshot of my external pull requests (auto-updated).
 **Summary:** 11 merged · 17 open · 2 closed (external repositories)
 
 <p align="center">
-  <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Veeramanikandanr48&theme=github-compact&hide_border=true&area=true" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Veeramanikandanr48&theme=github-light&hide_border=true&area=true" />
-      <img alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Veeramanikandanr48&theme=github-light&hide_border=true&area=true" />
-    </picture>
-  </a>
+  <img alt="External PR history" src="https://quickchart.io/chart?w=900&h=320&bkg=white&f=png&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%222026-11-18%22%2C%222026-11-19%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22PRs%20created%22%2C%22data%22%3A%5B14%2C30%5D%2C%22borderColor%22%3A%22%230969da%22%2C%22backgroundColor%22%3A%22rgba%289%2C105%2C218%2C0.08%29%22%2C%22fill%22%3Afalse%2C%22tension%22%3A0.25%2C%22pointRadius%22%3A2%2C%22borderWidth%22%3A2%7D%2C%7B%22label%22%3A%22PRs%20merged%22%2C%22data%22%3A%5B4%2C11%5D%2C%22borderColor%22%3A%22%232da44e%22%2C%22backgroundColor%22%3A%22rgba%2845%2C164%2C78%2C0.08%29%22%2C%22fill%22%3Afalse%2C%22tension%22%3A0.25%2C%22pointRadius%22%3A2%2C%22borderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22legend%22%3A%7B%22position%22%3A%22top%22%2C%22align%22%3A%22start%22%2C%22labels%22%3A%7B%22boxWidth%22%3A12%2C%22color%22%3A%22%2324292f%22%7D%7D%2C%22title%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%2357606a%22%2C%22maxRotation%22%3A0%2C%22autoSkip%22%3Atrue%2C%22maxTicksLimit%22%3A8%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba%2887%2C96%2C106%2C0.12%29%22%7D%7D%2C%22y%22%3A%7B%22beginAtZero%22%3Atrue%2C%22ticks%22%3A%7B%22precision%22%3A0%2C%22color%22%3A%22%2357606a%22%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba%2887%2C96%2C106%2C0.12%29%22%7D%7D%7D%7D%7D" />
 </p>
 
 **Merged**
@@ -75,7 +69,7 @@ Live snapshot of my external pull requests (auto-updated).
 
 [All pull requests →](https://github.com/pulls?q=is%3Apr+author%3AVeeramanikandanr48)
 
-<sub>Last updated: 2026-11-20 02:02 UTC</sub>
+<sub>Last updated: 2026-11-20 02:06 UTC</sub>
 <!-- CONTRIBUTIONS:END -->
 
 <p align="center">
