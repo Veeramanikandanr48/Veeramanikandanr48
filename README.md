@@ -33,6 +33,8 @@ Live snapshot of my external pull requests (auto-updated).
 
 **Summary:** 11 merged · 17 open · 2 closed (external repositories)
 
+<p align="center"><img src="https://quickchart.io/chart?w=420&h=180&bkg=transparent&f=png&c=%7B%22type%22%3A%22doughnut%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Merged%22%2C%22Open%22%2C%22Closed%22%5D%2C%22datasets%22%3A%5B%7B%22data%22%3A%5B11%2C17%2C2%5D%2C%22backgroundColor%22%3A%5B%22%232da44e%22%2C%22%230969da%22%2C%22%23cf222e%22%5D%2C%22borderWidth%22%3A0%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22legend%22%3A%7B%22position%22%3A%22right%22%2C%22labels%22%3A%7B%22color%22%3A%22%2357606a%22%7D%7D%7D%7D%7D" alt="PR status summary chart" /></p>
+
 **Merged**
 
 | Repository | Pull Requests | Details |
@@ -65,7 +67,7 @@ Live snapshot of my external pull requests (auto-updated).
 
 [All pull requests →](https://github.com/pulls?q=is%3Apr+author%3AVeeramanikandanr48)
 
-<sub>Last updated: 2026-11-20 01:54 UTC</sub>
+<sub>Last updated: 2026-11-20 01:57 UTC</sub>
 <!-- CONTRIBUTIONS:END -->
 
 <p align="center">
