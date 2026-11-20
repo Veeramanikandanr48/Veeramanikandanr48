@@ -33,12 +33,6 @@ Live snapshot of my external pull requests (auto-updated).
 
 **Summary:** 11 merged · 17 open · 2 closed (external repositories)
 
-<p align="center">
-  <a href="https://github.com/pulls?q=is%3Apr+author%3AVeeramanikandanr48">
-    <img alt="External PR contribution history" src="https://quickchart.io/chart?w=800&h=400&bkg=white&f=svg&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Nov%2018%2C%202026%22%2C%22Nov%2019%2C%202026%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22PRs%20created%20%2830%29%22%2C%22data%22%3A%5B14%2C30%5D%2C%22borderColor%22%3A%22%23f59e0b%22%2C%22backgroundColor%22%3A%22transparent%22%2C%22fill%22%3Afalse%2C%22tension%22%3A0.35%2C%22pointRadius%22%3A0%2C%22pointHitRadius%22%3A8%2C%22pointHoverRadius%22%3A4%2C%22borderWidth%22%3A3%7D%2C%7B%22label%22%3A%22PRs%20merged%20%2811%29%22%2C%22data%22%3A%5B4%2C11%5D%2C%22borderColor%22%3A%22%2310b981%22%2C%22backgroundColor%22%3A%22transparent%22%2C%22fill%22%3Afalse%2C%22tension%22%3A0.35%2C%22pointRadius%22%3A0%2C%22pointHitRadius%22%3A8%2C%22pointHoverRadius%22%3A4%2C%22borderWidth%22%3A3%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A20%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22legend%22%3A%7B%22display%22%3Atrue%2C%22position%22%3A%22top%22%2C%22align%22%3A%22start%22%2C%22labels%22%3A%7B%22usePointStyle%22%3Atrue%2C%22pointStyle%22%3A%22rectRounded%22%2C%22boxWidth%22%3A10%2C%22boxHeight%22%3A10%2C%22padding%22%3A16%2C%22font%22%3A%7B%22size%22%3A12%7D%2C%22color%22%3A%22%23374151%22%7D%7D%2C%22title%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22grid%22%3A%7B%22display%22%3Atrue%2C%22color%22%3A%22rgba%28156%2C163%2C175%2C0.25%29%22%2C%22drawBorder%22%3Atrue%2C%22borderColor%22%3A%22%23d1d5db%22%7D%2C%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22maxRotation%22%3A0%2C%22autoSkip%22%3Atrue%2C%22maxTicksLimit%22%3A8%7D%7D%2C%22y%22%3A%7B%22beginAtZero%22%3Atrue%2C%22grid%22%3A%7B%22display%22%3Atrue%2C%22color%22%3A%22rgba%28156%2C163%2C175%2C0.25%29%22%2C%22drawBorder%22%3Atrue%2C%22borderColor%22%3A%22%23d1d5db%22%7D%2C%22ticks%22%3A%7B%22precision%22%3A0%2C%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%7D%7D%2C%22elements%22%3A%7B%22line%22%3A%7B%22capBezierPoints%22%3Atrue%7D%7D%7D%7D" />
-  </a>
-</p>
-
 **Merged**
 
 | Repository | Pull Requests | Details |
@@ -71,7 +65,7 @@ Live snapshot of my external pull requests (auto-updated).
 
 [All pull requests →](https://github.com/pulls?q=is%3Apr+author%3AVeeramanikandanr48)
 
-<sub>Last updated: 2026-11-20 02:15 UTC</sub>
+<sub>Last updated: 2026-11-20 02:18 UTC</sub>
 <!-- CONTRIBUTIONS:END -->
 
 <p align="center">
