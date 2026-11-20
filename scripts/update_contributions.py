@@ -2,7 +2,6 @@
 import json
 import os
 import re
-import urllib.parse
 import subprocess
 import sys
 from collections import defaultdict
@@ -119,24 +118,18 @@ def render_section(merged, open_prs, closed):
     lines = [MARKER_START, "## Open source", "", "Live snapshot of my external pull requests (auto-updated).", ""]
     lines.append(f"**Summary:** {len(merged)} merged · {len(open_prs)} open · {len(closed)} closed (external repositories)")
     lines.append("")
-    chart_config = {
-        "type": "doughnut",
-        "data": {
-            "labels": ["Merged", "Open", "Closed"],
-            "datasets": [{
-                "data": [len(merged), len(open_prs), len(closed)],
-                "backgroundColor": ["#2da44e", "#0969da", "#cf222e"],
-                "borderWidth": 0,
-            }],
-        },
-        "options": {
-            "plugins": {
-                "legend": {"position": "right", "labels": {"color": "#57606a"}},
-            },
-        },
-    }
-    chart_url = "https://quickchart.io/chart?w=420&h=180&bkg=transparent&f=png&c=" + urllib.parse.quote(json.dumps(chart_config, separators=(",", ":")))
-    lines.append(f'<p align="center"><img src="{chart_url}" alt="PR status summary chart" /></p>')
+    activity_graph = (
+        '<p align="center">\n'
+        '  <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">\n'
+        '    <picture>\n'
+        f'      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username={USERNAME}&theme=github-compact&hide_border=true&area=true" />\n'
+        f'      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username={USERNAME}&theme=github-light&hide_border=true&area=true" />\n'
+        f'      <img alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username={USERNAME}&theme=github-light&hide_border=true&area=true" />\n'
+        '    </picture>\n'
+        '  </a>\n'
+        '</p>'
+    )
+    lines.append(activity_graph)
     lines.append("")
 
     if merged:
