@@ -1,11 +1,19 @@
-<h1 align="center">Veeramanikandan R</h1>
-<h3 align="center">Full Stack Engineer · Distributed Systems · NestJS / Next.js / AWS</h3>
+<h1 align="center">Hi, I'm Veeramanikandan 👋</h1>
 
 <p align="center">
-  I build production SaaS end to end — multi-tenant backends, event-driven services, and the cloud infrastructure they run on.
+  <strong>Full Stack Engineer · Distributed Systems · NestJS / Next.js / AWS</strong><br/>
+  <sub>Chennai, India</sub>
 </p>
 
----
+<p align="center">
+  <a href="https://veeramanikandan.vercel.app/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/veeramanikandanr">LinkedIn</a> ·
+  <a href="https://huggingface.co/Veeramanikandan">Hugging Face</a> ·
+  <a href="https://twitter.com/veera_r_tech">X</a> ·
+  <a href="mailto:veeramanikandanr48@gmail.com">Email</a>
+</p>
+
+> I build production SaaS end to end — multi-tenant backends, event-driven services, and the cloud infrastructure they run on.
 
 ## What I'm working on
 
@@ -13,12 +21,12 @@
 - **Alpha Quality ERP / HRMS** — attendance, payroll, timesheets and client invoicing. 20+ merged PRs across the backend and frontend.
 - **Open source** — fixes and tests in cloud-carbon-footprint, Cornerstone3D, Storybook, openslop and HyperFrames.
 
-**Focus:** TypeScript · NestJS · Next.js · PostgreSQL · AWS · event-driven architecture · RBAC/ABAC
+**Focus:** TypeScript · NestJS · Next.js · PostgreSQL · AWS · event-driven architecture · RBAC/ABAC  
 **Exploring:** AI agents, RAG and automation for product workflows
 
-## Featured repositories
+## Featured projects
 
-| Repository | What it is | Stack |
+| Project | What it is | Stack |
 | --- | --- | --- |
 | [carbon-esg-backend](https://github.com/Veeramanikandanr48/carbon-esg-backend) | Enterprise carbon accounting & ESG API — multi-tenant auth, policy-based permissions, S3 documents, scheduled jobs | NestJS 11 · TypeORM · PostgreSQL · CASL |
 | [carbon-esg-frontend](https://github.com/Veeramanikandanr48/carbon-esg-frontend) | Public marketing site plus authenticated ESG workspace | Next.js App Router · Tailwind · Radix · TanStack Table |
@@ -68,18 +76,24 @@ Live snapshot of my external pull requests (auto-updated).
 <sub>Last updated: 2026-11-20 02:18 UTC</sub>
 <!-- CONTRIBUTIONS:END -->
 
+## Tech stack
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,nestjs,postgres,python,docker,aws" alt="TypeScript, JavaScript, React, Next.js, Node.js, NestJS, PostgreSQL, Python, Docker, AWS" />
 </p>
+
+## GitHub stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Veeramanikandanr48&show_icons=true&rank_icon=github&theme=buefy&hide_border=true&cache_seconds=1800" alt="GitHub stats" />
 </p>
 
-## Elsewhere
+## Connect
 
-[Portfolio](https://veeramanikandan.vercel.app/) ·
-[LinkedIn](https://www.linkedin.com/in/veeramanikandanr) ·
-[Hugging Face](https://huggingface.co/Veeramanikandan) ·
-[X](https://twitter.com/veera_r_tech) ·
-[Email](mailto:veeramanikandanr48@gmail.com)
+<p align="center">
+  <a href="https://veeramanikandan.vercel.app/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/veeramanikandanr">LinkedIn</a> ·
+  <a href="https://huggingface.co/Veeramanikandan">Hugging Face</a> ·
+  <a href="https://twitter.com/veera_r_tech">X</a> ·
+  <a href="mailto:veeramanikandanr48@gmail.com">veeramanikandanr48@gmail.com</a>
+</p>
