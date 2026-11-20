@@ -173,56 +173,88 @@ def render_section(merged, open_prs, closed, external_prs=None):
         external_prs = merged + open_prs + closed
     labels, created_cum, merged_cum = build_cumulative_timeline(external_prs)
     if labels:
+        # Star History-style cumulative line chart
+        # Format x labels as short dates for readability
+        def fmt_label(d):
+            try:
+                dt = datetime.fromisoformat(d)
+                return dt.strftime("%b %d, %Y") if len(labels) <= 6 else dt.strftime("%b %d")
+            except Exception:
+                return d
+        xlabels = [fmt_label(d) for d in labels]
+        created_label = f"PRs created ({created_cum[-1]})"
+        merged_label = f"PRs merged ({merged_cum[-1]})"
         chart_config = {
             "type": "line",
             "data": {
-                "labels": labels,
+                "labels": xlabels,
                 "datasets": [
                     {
-                        "label": "PRs created",
+                        "label": created_label,
                         "data": created_cum,
-                        "borderColor": "#0969da",
-                        "backgroundColor": "rgba(9,105,218,0.08)",
+                        "borderColor": "#f59e0b",
+                        "backgroundColor": "transparent",
                         "fill": False,
-                        "tension": 0.25,
-                        "pointRadius": 2,
-                        "borderWidth": 2,
+                        "tension": 0.35,
+                        "pointRadius": 0,
+                        "pointHitRadius": 8,
+                        "pointHoverRadius": 4,
+                        "borderWidth": 3,
                     },
                     {
-                        "label": "PRs merged",
+                        "label": merged_label,
                         "data": merged_cum,
-                        "borderColor": "#2da44e",
-                        "backgroundColor": "rgba(45,164,78,0.08)",
+                        "borderColor": "#10b981",
+                        "backgroundColor": "transparent",
                         "fill": False,
-                        "tension": 0.25,
-                        "pointRadius": 2,
-                        "borderWidth": 2,
+                        "tension": 0.35,
+                        "pointRadius": 0,
+                        "pointHitRadius": 8,
+                        "pointHoverRadius": 4,
+                        "borderWidth": 3,
                     },
                 ],
             },
             "options": {
+                "layout": {"padding": {"top": 10, "right": 20, "bottom": 10, "left": 10}},
                 "plugins": {
-                    "legend": {"position": "top", "align": "start", "labels": {"boxWidth": 12, "color": "#24292f"}},
+                    "legend": {
+                        "display": True,
+                        "position": "top",
+                        "align": "start",
+                        "labels": {
+                            "usePointStyle": True,
+                            "pointStyle": "rectRounded",
+                            "boxWidth": 10,
+                            "boxHeight": 10,
+                            "padding": 16,
+                            "font": {"size": 12},
+                            "color": "#374151",
+                        },
+                    },
                     "title": {"display": False},
                 },
                 "scales": {
                     "x": {
-                        "ticks": {"color": "#57606a", "maxRotation": 0, "autoSkip": True, "maxTicksLimit": 8},
-                        "grid": {"color": "rgba(87,96,106,0.12)"},
+                        "grid": {"display": True, "color": "rgba(156,163,175,0.25)", "drawBorder": True, "borderColor": "#d1d5db"},
+                        "ticks": {"color": "#6b7280", "font": {"size": 11}, "maxRotation": 0, "autoSkip": True, "maxTicksLimit": 8},
                     },
                     "y": {
                         "beginAtZero": True,
-                        "ticks": {"precision": 0, "color": "#57606a"},
-                        "grid": {"color": "rgba(87,96,106,0.12)"},
+                        "grid": {"display": True, "color": "rgba(156,163,175,0.25)", "drawBorder": True, "borderColor": "#d1d5db"},
+                        "ticks": {"precision": 0, "color": "#6b7280", "font": {"size": 11}},
                     },
                 },
+                "elements": {"line": {"capBezierPoints": True}},
             },
         }
-        chart_url = "https://quickchart.io/chart?w=900&h=320&bkg=white&f=png&c=" + urllib.parse.quote(
+        chart_url = "https://quickchart.io/chart?w=800&h=400&bkg=white&f=svg&c=" + urllib.parse.quote(
             json.dumps(chart_config, separators=(",", ":"))
         )
         lines.append('<p align="center">')
-        lines.append(f'  <img alt="External PR history" src="{chart_url}" />')
+        lines.append(f'  <a href="https://github.com/pulls?q=is%3Apr+author%3A{USERNAME}">')
+        lines.append(f'    <img alt="External PR contribution history" src="{chart_url}" />')
+        lines.append('  </a>')
         lines.append("</p>")
         lines.append("")
 
