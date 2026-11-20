@@ -82,61 +82,51 @@ def group_by_repo(prs):
     return grouped
 
 
-def format_repo_group(repo, prs):
-    parts = []
-    for pr in prs:
-        parts.append(f"[#{pr['number']}]({pr['url']})")
-    # summarize titles: if many, show first title theme lightly; keep concise
+def escape_cell(text):
+    return text.replace("|", "\\|").replace("\n", " ").strip()
+
+
+def format_repo_row(repo, prs):
+    nums = " · ".join(f"[#{pr['number']}]({pr['url']})" for pr in prs)
     titles = [short_title(p["title"]) for p in prs]
     if len(titles) == 1:
         desc = titles[0]
     else:
-        # join short refs with semicolon of titles? too long; show compact
         desc = "; ".join(titles[:2])
         if len(titles) > 2:
             desc += f"; +{len(titles)-2} more"
-    nums = " · ".join(parts)
-    return f"- [{repo}](https://github.com/{repo}) — {nums} — {desc}"
+    return f"| [{repo}](https://github.com/{repo}) | {escape_cell(nums)} | {escape_cell(desc)} |"
+
+
+def render_status_table(title, prs, limit=None):
+    lines = [f"**{title}**", "", "| Repository | Pull Requests | Details |", "| --- | --- | --- |"]
+    subset = prs if limit is None else prs[:limit]
+    grouped = group_by_repo(subset)
+
+    def group_key(item):
+        repo, repo_prs = item
+        return max(p["sort_key"] for p in repo_prs)
+
+    for repo, repo_prs in sorted(grouped.items(), key=group_key, reverse=True):
+        prs_sorted = sorted(repo_prs, key=lambda p: p["sort_key"], reverse=True)
+        lines.append(format_repo_row(repo, prs_sorted))
+    lines.append("")
+    return lines
 
 
 def render_section(merged, open_prs, closed):
     lines = [MARKER_START, "## Open source", "", "Live snapshot of my external pull requests (auto-updated).", ""]
-
     lines.append(f"**Summary:** {len(merged)} merged · {len(open_prs)} open · {len(closed)} closed (external repositories)")
     lines.append("")
 
     if merged:
-        lines.append("**Merged**")
-        grouped = group_by_repo(merged[:MAX_MERGED])
-        def group_key(item):
-            repo, prs = item
-            return max(p["sort_key"] for p in prs)
-        for repo, prs in sorted(grouped.items(), key=group_key, reverse=True):
-            prs_sorted = sorted(prs, key=lambda p: p["sort_key"], reverse=True)
-            lines.append(format_repo_group(repo, prs_sorted))
-        lines.append("")
+        lines.extend(render_status_table("Merged", merged, MAX_MERGED))
 
     if open_prs:
-        lines.append("**Open**")
-        grouped = group_by_repo(open_prs[:MAX_OPEN])
-        def group_key(item):
-            repo, prs = item
-            return max(p["sort_key"] for p in prs)
-        for repo, prs in sorted(grouped.items(), key=group_key, reverse=True):
-            prs_sorted = sorted(prs, key=lambda p: p["sort_key"], reverse=True)
-            lines.append(format_repo_group(repo, prs_sorted))
-        lines.append("")
+        lines.extend(render_status_table("Open", open_prs, MAX_OPEN))
 
     if closed:
-        lines.append("**Closed (unmerged)**")
-        grouped = group_by_repo(closed)
-        def group_key(item):
-            repo, prs = item
-            return max(p["sort_key"] for p in prs)
-        for repo, prs in sorted(grouped.items(), key=group_key, reverse=True):
-            prs_sorted = sorted(prs, key=lambda p: p["sort_key"], reverse=True)
-            lines.append(format_repo_group(repo, prs_sorted))
-        lines.append("")
+        lines.extend(render_status_table("Closed (unmerged)", closed))
 
     if not merged and not open_prs and not closed:
         lines.append("_No external pull requests found yet._")
