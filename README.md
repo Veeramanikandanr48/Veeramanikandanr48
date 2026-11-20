@@ -88,6 +88,15 @@ Live snapshot of my external pull requests (auto-updated).
   <img src="https://github-readme-stats.vercel.app/api?username=Veeramanikandanr48&show_icons=true&rank_icon=github&theme=buefy&hide_border=true&cache_seconds=1800" alt="GitHub stats" />
 </p>
 
+
+## Contribution snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Veeramanikandanr48/Veeramanikandanr48/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Veeramanikandanr48/Veeramanikandanr48/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Veeramanikandanr48/Veeramanikandanr48/output/github-contribution-grid-snake.svg" />
+</picture>
+
 ## Connect
 
 <p align="center">
