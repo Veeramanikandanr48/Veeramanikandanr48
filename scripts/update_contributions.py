@@ -2,7 +2,6 @@
 import json
 import os
 import re
-import urllib.parse
 import subprocess
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -44,8 +43,6 @@ def normalize_pr(item):
     repo = item["repository_url"].replace("https://api.github.com/repos/", "")
     pr = item.get("pull_request") or {}
     merged_at = pr.get("merged_at")
-    created_at = item.get("created_at")
-    closed_at = item.get("closed_at")
     if merged_at:
         state = "Merged"
         sort_key = merged_at
@@ -57,7 +54,7 @@ def normalize_pr(item):
         sort_key = item.get("updated_at") or ""
     else:
         state = "Closed"
-        sort_key = closed_at or item.get("updated_at") or ""
+        sort_key = item.get("closed_at") or item.get("updated_at") or ""
     return {
         "repo": repo,
         "number": item.get("number"),
@@ -65,9 +62,6 @@ def normalize_pr(item):
         "url": item.get("html_url"),
         "state": state,
         "sort_key": sort_key,
-        "created_at": created_at,
-        "merged_at": merged_at,
-        "closed_at": closed_at,
     }
 
 
@@ -119,144 +113,10 @@ def render_status_table(title, prs, limit=None):
     return lines
 
 
-def parse_date(iso):
-    if not iso:
-        return None
-    try:
-        return datetime.fromisoformat(iso.replace("Z", "+00:00")).date()
-    except Exception:
-        return None
-
-
-def build_cumulative_timeline(external_prs):
-    events = defaultdict(lambda: {"created": 0, "merged": 0})
-    for pr in external_prs:
-        d = parse_date(pr.get("created_at"))
-        if d:
-            events[d]["created"] += 1
-        if pr.get("state") == "Merged":
-            d = parse_date(pr.get("merged_at"))
-            if d:
-                events[d]["merged"] += 1
-    if not events:
-        return [], [], []
-    dates = sorted(events)
-    labels = []
-    created_cum = []
-    merged_cum = []
-    c_total = 0
-    m_total = 0
-    for d in dates:
-        c_total += events[d]["created"]
-        m_total += events[d]["merged"]
-        labels.append(d.isoformat())
-        created_cum.append(c_total)
-        merged_cum.append(m_total)
-    # downsample if too many points for URL length/readability
-    if len(labels) > 40:
-        step = max(1, len(labels) // 40)
-        idxs = list(range(0, len(labels), step))
-        if idxs[-1] != len(labels) - 1:
-            idxs.append(len(labels) - 1)
-        labels = [labels[i] for i in idxs]
-        created_cum = [created_cum[i] for i in idxs]
-        merged_cum = [merged_cum[i] for i in idxs]
-    return labels, created_cum, merged_cum
-
-
-def render_section(merged, open_prs, closed, external_prs=None):
+def render_section(merged, open_prs, closed):
     lines = [MARKER_START, "## Open source", "", "Live snapshot of my external pull requests (auto-updated).", ""]
     lines.append(f"**Summary:** {len(merged)} merged · {len(open_prs)} open · {len(closed)} closed (external repositories)")
     lines.append("")
-
-    if external_prs is None:
-        external_prs = merged + open_prs + closed
-    labels, created_cum, merged_cum = build_cumulative_timeline(external_prs)
-    if labels:
-        # Star History-style cumulative line chart
-        # Format x labels as short dates for readability
-        def fmt_label(d):
-            try:
-                dt = datetime.fromisoformat(d)
-                return dt.strftime("%b %d, %Y") if len(labels) <= 6 else dt.strftime("%b %d")
-            except Exception:
-                return d
-        xlabels = [fmt_label(d) for d in labels]
-        created_label = f"PRs created ({created_cum[-1]})"
-        merged_label = f"PRs merged ({merged_cum[-1]})"
-        chart_config = {
-            "type": "line",
-            "data": {
-                "labels": xlabels,
-                "datasets": [
-                    {
-                        "label": created_label,
-                        "data": created_cum,
-                        "borderColor": "#f59e0b",
-                        "backgroundColor": "transparent",
-                        "fill": False,
-                        "tension": 0.35,
-                        "pointRadius": 0,
-                        "pointHitRadius": 8,
-                        "pointHoverRadius": 4,
-                        "borderWidth": 3,
-                    },
-                    {
-                        "label": merged_label,
-                        "data": merged_cum,
-                        "borderColor": "#10b981",
-                        "backgroundColor": "transparent",
-                        "fill": False,
-                        "tension": 0.35,
-                        "pointRadius": 0,
-                        "pointHitRadius": 8,
-                        "pointHoverRadius": 4,
-                        "borderWidth": 3,
-                    },
-                ],
-            },
-            "options": {
-                "layout": {"padding": {"top": 10, "right": 20, "bottom": 10, "left": 10}},
-                "plugins": {
-                    "legend": {
-                        "display": True,
-                        "position": "top",
-                        "align": "start",
-                        "labels": {
-                            "usePointStyle": True,
-                            "pointStyle": "rectRounded",
-                            "boxWidth": 10,
-                            "boxHeight": 10,
-                            "padding": 16,
-                            "font": {"size": 12},
-                            "color": "#374151",
-                        },
-                    },
-                    "title": {"display": False},
-                },
-                "scales": {
-                    "x": {
-                        "grid": {"display": True, "color": "rgba(156,163,175,0.25)", "drawBorder": True, "borderColor": "#d1d5db"},
-                        "ticks": {"color": "#6b7280", "font": {"size": 11}, "maxRotation": 0, "autoSkip": True, "maxTicksLimit": 8},
-                    },
-                    "y": {
-                        "beginAtZero": True,
-                        "grid": {"display": True, "color": "rgba(156,163,175,0.25)", "drawBorder": True, "borderColor": "#d1d5db"},
-                        "ticks": {"precision": 0, "color": "#6b7280", "font": {"size": 11}},
-                    },
-                },
-                "elements": {"line": {"capBezierPoints": True}},
-            },
-        }
-        chart_url = "https://quickchart.io/chart?w=800&h=400&bkg=white&f=svg&c=" + urllib.parse.quote(
-            json.dumps(chart_config, separators=(",", ":"))
-        )
-        lines.append('<p align="center">')
-        lines.append(f'  <a href="https://github.com/pulls?q=is%3Apr+author%3A{USERNAME}">')
-        lines.append(f'    <img alt="External PR contribution history" src="{chart_url}" />')
-        lines.append('  </a>')
-        lines.append("</p>")
-        lines.append("")
 
     if merged:
         lines.extend(render_status_table("Merged", merged, MAX_MERGED))
@@ -308,7 +168,7 @@ def main():
     )
     closed = sorted([p for p in external if p["state"] == "Closed"], key=lambda x: x["sort_key"], reverse=True)
 
-    new_section = render_section(merged, open_prs, closed, external)
+    new_section = render_section(merged, open_prs, closed)
 
     with open(README_PATH, "r", encoding="utf-8") as f:
         readme = f.read()
