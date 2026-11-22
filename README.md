@@ -39,7 +39,7 @@
 
 Live snapshot of my external pull requests (auto-updated).
 
-**Summary:** 18 merged · 22 open · 4 closed (external repositories)
+**Summary:** 18 merged · 17 open · 9 closed (external repositories)
 
 **Merged**
 
@@ -58,8 +58,6 @@ Live snapshot of my external pull requests (auto-updated).
 | Repository | Pull Requests | Details |
 | --- | --- | --- |
 | [linkzy/symbio](https://github.com/linkzy/symbio) | [#42](https://github.com/linkzy/symbio/pull/42) | Add copy buttons to chat messages and code blocks |
-| [codepawl/crucible](https://github.com/codepawl/crucible) | [#2780](https://github.com/codepawl/crucible/pull/2780) · [#2793](https://github.com/codepawl/crucible/pull/2793) · [#2768](https://github.com/codepawl/crucible/pull/2768) | Add timed spawn and enable for physics bodies (#2767); Check rotation keyframes in GLB export (#2382); +1 more |
-| [lingdojo/kana-dojo](https://github.com/lingdojo/kana-dojo) | [#34281](https://github.com/lingdojo/kana-dojo/pull/34281) · [#34271](https://github.com/lingdojo/kana-dojo/pull/34271) | content: add new japan fact (#34273); theme: add new Kumo Sky theme |
 | [MassiveMarketManager/MassiveMarketManager-MMM](https://github.com/MassiveMarketManager/MassiveMarketManager-MMM) | [#81](https://github.com/MassiveMarketManager/MassiveMarketManager-MMM/pull/81) | fix: replace Vite template title and favicon |
 | [vercel/swr-site](https://github.com/vercel/swr-site) | [#673](https://github.com/vercel/swr-site/pull/673) · [#672](https://github.com/vercel/swr-site/pull/672) · [#669](https://github.com/vercel/swr-site/pull/669) · [#670](https://github.com/vercel/swr-site/pull/670) · [#668](https://github.com/vercel/swr-site/pull/668) · [#667](https://github.com/vercel/swr-site/pull/667) · [#666](https://github.com/vercel/swr-site/pull/666) | Document preload error handling; Document suspense error handling in error handling guide; +5 more |
 | [vercel/next.js](https://github.com/vercel/next.js) | [#102039](https://github.com/vercel/next.js/pull/102039) | Stop the agent upgrade from inheriting the CLI's NODE_ENV |
@@ -73,14 +71,15 @@ Live snapshot of my external pull requests (auto-updated).
 
 | Repository | Pull Requests | Details |
 | --- | --- | --- |
+| [lingdojo/kana-dojo](https://github.com/lingdojo/kana-dojo) | [#34281](https://github.com/lingdojo/kana-dojo/pull/34281) · [#34271](https://github.com/lingdojo/kana-dojo/pull/34271) | content: add new japan fact (#34273); theme: add new Kumo Sky theme |
+| [codepawl/crucible](https://github.com/codepawl/crucible) | [#2780](https://github.com/codepawl/crucible/pull/2780) · [#2793](https://github.com/codepawl/crucible/pull/2793) · [#2768](https://github.com/codepawl/crucible/pull/2768) · [#2670](https://github.com/codepawl/crucible/pull/2670) | Add timed spawn and enable for physics bodies (#2767); Check rotation keyframes in GLB export (#2382); +2 more |
 | [JoshAtticus/meower-svelte](https://github.com/JoshAtticus/meower-svelte) | [#27](https://github.com/JoshAtticus/meower-svelte/pull/27) | fix: disable enter-to-send on coarse pointer devices |
-| [codepawl/crucible](https://github.com/codepawl/crucible) | [#2670](https://github.com/codepawl/crucible/pull/2670) | Share one site navigation and document Web Studio (#2220) |
 | [SahinurDEV/easy-quick-form](https://github.com/SahinurDEV/easy-quick-form) | [#109](https://github.com/SahinurDEV/easy-quick-form/pull/109) | fix(server): replace deprecated Mongoose new option |
 | [cornerstonejs/cornerstone3D](https://github.com/cornerstonejs/cornerstone3D) | [#3093](https://github.com/cornerstonejs/cornerstone3D/pull/3093) | fix(nifti-volume-loader): use DICOM [row, column] order for PixelSpacing |
 
 [All pull requests →](https://github.com/pulls?q=is%3Apr+author%3AVeeramanikandanr48)
 
-<sub>Last updated: 2026-11-22 07:19 UTC</sub>
+<sub>Last updated: 2026-11-22 19:55 UTC</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## Tech stack
