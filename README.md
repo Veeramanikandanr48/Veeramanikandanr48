@@ -39,12 +39,13 @@
 
 Live snapshot of my external pull requests (auto-updated).
 
-**Summary:** 17 merged · 21 open · 4 closed (external repositories)
+**Summary:** 18 merged · 22 open · 4 closed (external repositories)
 
 **Merged**
 
 | Repository | Pull Requests | Details |
 | --- | --- | --- |
+| [MNSBaanu/OpenPlan](https://github.com/MNSBaanu/OpenPlan) | [#40](https://github.com/MNSBaanu/OpenPlan/pull/40) | fix: sync theme-color meta with dark mode |
 | [codepawl/crucible](https://github.com/codepawl/crucible) | [#2668](https://github.com/codepawl/crucible/pull/2668) · [#2663](https://github.com/codepawl/crucible/pull/2663) · [#2658](https://github.com/codepawl/crucible/pull/2658) · [#2659](https://github.com/codepawl/crucible/pull/2659) · [#2662](https://github.com/codepawl/crucible/pull/2662) · [#2661](https://github.com/codepawl/crucible/pull/2661) · [#2665](https://github.com/codepawl/crucible/pull/2665) · [#2657](https://github.com/codepawl/crucible/pull/2657) | Reject non-finite crown vertices (#2616); Render malformed docs image paragraphs as text (#2621); +6 more |
 | [openslop/openslop](https://github.com/openslop/openslop) | [#1333](https://github.com/openslop/openslop/pull/1333) · [#1332](https://github.com/openslop/openslop/pull/1332) · [#1320](https://github.com/openslop/openslop/pull/1320) | fix(canvas): keep the generation indicator label on one line; feat: add audiobook format; +1 more |
 | [lingdojo/kana-dojo](https://github.com/lingdojo/kana-dojo) | [#34272](https://github.com/lingdojo/kana-dojo/pull/34272) | content: add new japan fact |
@@ -56,6 +57,7 @@ Live snapshot of my external pull requests (auto-updated).
 
 | Repository | Pull Requests | Details |
 | --- | --- | --- |
+| [linkzy/symbio](https://github.com/linkzy/symbio) | [#42](https://github.com/linkzy/symbio/pull/42) | Add copy buttons to chat messages and code blocks |
 | [codepawl/crucible](https://github.com/codepawl/crucible) | [#2780](https://github.com/codepawl/crucible/pull/2780) · [#2793](https://github.com/codepawl/crucible/pull/2793) · [#2768](https://github.com/codepawl/crucible/pull/2768) | Add timed spawn and enable for physics bodies (#2767); Check rotation keyframes in GLB export (#2382); +1 more |
 | [lingdojo/kana-dojo](https://github.com/lingdojo/kana-dojo) | [#34281](https://github.com/lingdojo/kana-dojo/pull/34281) · [#34271](https://github.com/lingdojo/kana-dojo/pull/34271) | content: add new japan fact (#34273); theme: add new Kumo Sky theme |
 | [MassiveMarketManager/MassiveMarketManager-MMM](https://github.com/MassiveMarketManager/MassiveMarketManager-MMM) | [#81](https://github.com/MassiveMarketManager/MassiveMarketManager-MMM/pull/81) | fix: replace Vite template title and favicon |
@@ -78,7 +80,7 @@ Live snapshot of my external pull requests (auto-updated).
 
 [All pull requests →](https://github.com/pulls?q=is%3Apr+author%3AVeeramanikandanr48)
 
-<sub>Last updated: 2026-11-21 19:41 UTC</sub>
+<sub>Last updated: 2026-11-22 07:19 UTC</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## Tech stack
