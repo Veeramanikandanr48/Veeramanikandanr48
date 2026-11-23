@@ -39,15 +39,15 @@
 
 Live snapshot of my external pull requests (auto-updated).
 
-**Summary:** 18 merged · 17 open · 9 closed (external repositories)
+**Summary:** 19 merged · 16 open · 9 closed (external repositories)
 
 **Merged**
 
 | Repository | Pull Requests | Details |
 | --- | --- | --- |
+| [openslop/openslop](https://github.com/openslop/openslop) | [#1335](https://github.com/openslop/openslop/pull/1335) · [#1333](https://github.com/openslop/openslop/pull/1333) · [#1332](https://github.com/openslop/openslop/pull/1332) · [#1320](https://github.com/openslop/openslop/pull/1320) | feat(ui): explain why buttons are unavailable; fix(canvas): keep the generation indicator label on one line; +2 more |
 | [MNSBaanu/OpenPlan](https://github.com/MNSBaanu/OpenPlan) | [#40](https://github.com/MNSBaanu/OpenPlan/pull/40) | fix: sync theme-color meta with dark mode |
 | [codepawl/crucible](https://github.com/codepawl/crucible) | [#2668](https://github.com/codepawl/crucible/pull/2668) · [#2663](https://github.com/codepawl/crucible/pull/2663) · [#2658](https://github.com/codepawl/crucible/pull/2658) · [#2659](https://github.com/codepawl/crucible/pull/2659) · [#2662](https://github.com/codepawl/crucible/pull/2662) · [#2661](https://github.com/codepawl/crucible/pull/2661) · [#2665](https://github.com/codepawl/crucible/pull/2665) · [#2657](https://github.com/codepawl/crucible/pull/2657) | Reject non-finite crown vertices (#2616); Render malformed docs image paragraphs as text (#2621); +6 more |
-| [openslop/openslop](https://github.com/openslop/openslop) | [#1333](https://github.com/openslop/openslop/pull/1333) · [#1332](https://github.com/openslop/openslop/pull/1332) · [#1320](https://github.com/openslop/openslop/pull/1320) | fix(canvas): keep the generation indicator label on one line; feat: add audiobook format; +1 more |
 | [lingdojo/kana-dojo](https://github.com/lingdojo/kana-dojo) | [#34272](https://github.com/lingdojo/kana-dojo/pull/34272) | content: add new japan fact |
 | [SahinurDEV/easy-quick-form](https://github.com/SahinurDEV/easy-quick-form) | [#110](https://github.com/SahinurDEV/easy-quick-form/pull/110) · [#108](https://github.com/SahinurDEV/easy-quick-form/pull/108) | feat: show response counts on My Forms; feat(my-forms): add copy form link action (#100) |
 | [abhi478jeetur-rgb/env-saaf](https://github.com/abhi478jeetur-rgb/env-saaf) | [#108](https://github.com/abhi478jeetur-rgb/env-saaf/pull/108) · [#107](https://github.com/abhi478jeetur-rgb/env-saaf/pull/107) | feat: compare real .env keys in CLI check (fixes #100); feat: add global --version flag to CLI (fixes #98) |
@@ -61,7 +61,6 @@ Live snapshot of my external pull requests (auto-updated).
 | [MassiveMarketManager/MassiveMarketManager-MMM](https://github.com/MassiveMarketManager/MassiveMarketManager-MMM) | [#81](https://github.com/MassiveMarketManager/MassiveMarketManager-MMM/pull/81) | fix: replace Vite template title and favicon |
 | [vercel/swr-site](https://github.com/vercel/swr-site) | [#673](https://github.com/vercel/swr-site/pull/673) · [#672](https://github.com/vercel/swr-site/pull/672) · [#669](https://github.com/vercel/swr-site/pull/669) · [#670](https://github.com/vercel/swr-site/pull/670) · [#668](https://github.com/vercel/swr-site/pull/668) · [#667](https://github.com/vercel/swr-site/pull/667) · [#666](https://github.com/vercel/swr-site/pull/666) | Document preload error handling; Document suspense error handling in error handling guide; +5 more |
 | [vercel/next.js](https://github.com/vercel/next.js) | [#102039](https://github.com/vercel/next.js/pull/102039) | Stop the agent upgrade from inheriting the CLI's NODE_ENV |
-| [openslop/openslop](https://github.com/openslop/openslop) | [#1335](https://github.com/openslop/openslop/pull/1335) | feat(ui): explain why buttons are unavailable |
 | [cloud-carbon-footprint/cloud-carbon-footprint](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint) | [#1396](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint/pull/1396) | fix(aws): stop getQueryByInterval from looping forever |
 | [cornerstonejs/cornerstone3D](https://github.com/cornerstonejs/cornerstone3D) | [#3095](https://github.com/cornerstonejs/cornerstone3D/pull/3095) · [#3096](https://github.com/cornerstonejs/cornerstone3D/pull/3096) · [#3094](https://github.com/cornerstonejs/cornerstone3D/pull/3094) | test(adapters): verify 16-bit SEG labels survive in-plane reorientation; fix(core): drop PlanarViewport overrides of the base viewport API; +1 more |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | [#8225](https://github.com/heygen-com/hyperframes/pull/8225) | fix(cli): avoid NaN dimensions for invalid composition sizes |
@@ -79,7 +78,7 @@ Live snapshot of my external pull requests (auto-updated).
 
 [All pull requests →](https://github.com/pulls?q=is%3Apr+author%3AVeeramanikandanr48)
 
-<sub>Last updated: 2026-11-22 19:55 UTC</sub>
+<sub>Last updated: 2026-11-23 08:02 UTC</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## Tech stack
