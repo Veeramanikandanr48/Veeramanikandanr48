@@ -58,13 +58,13 @@ Live snapshot of my external pull requests (auto-updated).
 
 | Repository | Pull Requests | Details |
 | --- | --- | --- |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | [#37533](https://github.com/storybookjs/storybook/pull/37533) | Core: Fix Angular single story hoisting |
 | [vercel/next.js](https://github.com/vercel/next.js) | [#102221](https://github.com/vercel/next.js/pull/102221) · [#102039](https://github.com/vercel/next.js/pull/102039) | fix: encode forwarded server action worker pathname; Stop the agent upgrade from inheriting the CLI's NODE_ENV |
 | [MassiveMarketManager/MassiveMarketManager-MMM](https://github.com/MassiveMarketManager/MassiveMarketManager-MMM) | [#81](https://github.com/MassiveMarketManager/MassiveMarketManager-MMM/pull/81) | fix: replace Vite template title and favicon |
 | [vercel/swr-site](https://github.com/vercel/swr-site) | [#673](https://github.com/vercel/swr-site/pull/673) · [#672](https://github.com/vercel/swr-site/pull/672) · [#669](https://github.com/vercel/swr-site/pull/669) · [#670](https://github.com/vercel/swr-site/pull/670) · [#668](https://github.com/vercel/swr-site/pull/668) · [#667](https://github.com/vercel/swr-site/pull/667) · [#666](https://github.com/vercel/swr-site/pull/666) | Document preload error handling; Document suspense error handling in error handling guide; +5 more |
 | [cloud-carbon-footprint/cloud-carbon-footprint](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint) | [#1396](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint/pull/1396) | fix(aws): stop getQueryByInterval from looping forever |
 | [cornerstonejs/cornerstone3D](https://github.com/cornerstonejs/cornerstone3D) | [#3095](https://github.com/cornerstonejs/cornerstone3D/pull/3095) · [#3096](https://github.com/cornerstonejs/cornerstone3D/pull/3096) · [#3094](https://github.com/cornerstonejs/cornerstone3D/pull/3094) | test(adapters): verify 16-bit SEG labels survive in-plane reorientation; fix(core): drop PlanarViewport overrides of the base viewport API; +1 more |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | [#8225](https://github.com/heygen-com/hyperframes/pull/8225) | fix(cli): avoid NaN dimensions for invalid composition sizes |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | [#37533](https://github.com/storybookjs/storybook/pull/37533) | Core: Fix Angular single story hoisting |
 
 **Closed (unmerged)**
 
@@ -78,7 +78,7 @@ Live snapshot of my external pull requests (auto-updated).
 
 [All pull requests →](https://github.com/pulls?q=is%3Apr+author%3AVeeramanikandanr48)
 
-<sub>Last updated: 2026-11-24 10:19 UTC</sub>
+<sub>Last updated: 2026-11-24 22:41 UTC</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## Tech stack
